@@ -1,0 +1,9 @@
+profile = "scope/name@1.0"
+provider = "test"
+
+"""
+Name map
+"""
+map Name {
+  map result 'OK'
+}

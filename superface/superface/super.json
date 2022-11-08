@@ -1,0 +1,20 @@
+{
+  "providers": {
+    "test": {
+      "file": "../test.provider.json"
+    }
+  },
+  "profiles": {
+    "scope/name": {
+      "file": "../scope/name.supr",
+      "providers": {
+        "test": {
+          "file": "../scope/name.test.suma"
+        }
+      },
+      "priority": [
+        "test"
+      ]
+    }
+  }
+}

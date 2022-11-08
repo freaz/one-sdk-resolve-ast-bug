@@ -1,0 +1,9 @@
+name = "scope/name"
+version = "1.0.0"
+
+"""
+Name usecase
+"""
+usecase Name {
+  result string
+}
